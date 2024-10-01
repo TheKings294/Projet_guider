@@ -13,9 +13,9 @@ int main(int argc, const char * argv[]) {
     printf("Choisiser un oppérateur parmit ceux disponible : + - * / %%\n");
     scanf("%c", &opp);
     
-    printf("Nombre 1: ");
+    printf("Nombre 1 entier supérieur a 1: ");
     scanf("%d", &nb_a);
-    printf("Nombre 2 :");
+    printf("Nombre 2 entier supérieur a 1 :");
     scanf("%d", &nb_b);
     
     switch (opp) {
